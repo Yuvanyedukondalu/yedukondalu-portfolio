@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yedukondalu Revelli - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <!-- logo moved out of the centered container so it can be anchored to the far-left -->
+        <div class="nav-logo">
+            <span class="logo-text">Yuvan</span>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen background video (autoplay, muted, loop) -->
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Hero Section with Overlay -->
+    <section id="home" class="hero">
+        <div class="overlay">
+            <div class="content">
+                <h1>Hi, I'm <span class="highlight">Yedukondalu</span><br />
+                    <span class="gradient-text">Full Stack Developer</span>
+                </h1>
+                <p class="lead">Building hands-on capabilities that translate directly into workplace advantage &
+                    tangible outcomes.</p>
+                <div class="btn-row">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate Developer & AI Enthusiast</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Yedukondalu Revelli</strong>, a passionate 3rd-year Computer Science student at CMR
+                        Engineering College
+                        with a strong foundation in programming and emerging technologies. Currently maintaining a 9.1
+                        CGPA,
+                        I'm driven by curiosity and connected across borders through various learning opportunities.
+                    </p>
+                    <p>
+                        With hands-on experience in <strong>Data Science, Generative AI, and Full-Stack
+                            Development</strong>,
+                        I'm building capabilities that translate directly into workplace advantage and tangible
+                        outcomes.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">120+</div>
+                            <div class="stat-label">Active Learning Hours</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Academic Excellence</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <img src="WhatsApp Image 2025-10-11 at 6.44.45 PM.jpeg" class="myimage" alt="image">
+                            <!-- <i class="fas fa-user"></i> -->
+                        </div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technical expertise across multiple domains</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database & Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">JDBC</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Data Science</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">Data Science</span>
+                        <span class="skill-tag">Generative AI</span>
+                        <span class="skill-tag">Microsoft Copilot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world applications and innovative solutions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hospital Management System</h3>
+                        <p>Built a console-based system to manage patients, appointments, and billing using MySQL and
+                            CRUD operations via JDBC.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">JDBC</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Science Analytics</h3>
+                        <p>Comprehensive data analysis and visualization project focusing on AI and machine learning
+                            applications.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Science</span>
+                            <span class="tag">AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Certifications</h2>
+                <p class="section-subtitle">Academic journey and professional certifications</p>
+            </div>
+            <div class="education-cards">
+                <div class="education-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>CMR Engineering College</h3>
+                        <p class="card-subtitle">Bachelor's in Computer Science Engineering</p>
+                        <p class="card-details">Present 3rd year graduate, expected graduation in 2027</p>
+                        <div class="card-achievement">CGPA: 9.1</div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="card-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>MJPTBCWR Inter College</h3>
+                        <p class="card-subtitle">Intermediate Education</p>
+                        <div class="card-achievement">Percentage: 98%</div>
+                    </div>
+                </div>
+                <div class="education-card cert-card">
+                    <div class="card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Professional Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Data Science Micro Internship - IBM Skill Build</li>
+                            <!-- <li>Career Essentials in Generative AI - Microsoft & LinkedIn</li> -->
+                            <li>Certificate of TCS ION Career Edge</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                  <div class="education-card cert-card">
+                    <div class="card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Certifications Microsoft</h3>
+                        <ul class="cert-list">
+                            <!-- <li>Data Science Micro Internship - IBM Skill Build</li> -->
+                            <li>Career Essentials in Generative AI - Microsoft & LinkedIn</li>
+                            <li>Intern at Swecha IIIt Hyderabad</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and create something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>yuvanrevelli@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9441839362</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Hyderabad, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>yuvan2301</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Yedukondalu Revelli. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
